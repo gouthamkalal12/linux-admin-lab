@@ -1,55 +1,101 @@
 # Linux Admin Lab
 
-This repository contains my Linux Administration learning notes, commands, troubleshooting scenarios, and hands-on practice documentation.
+A structured, hands-on documentation of my Linux Administration learning journey covering Linux fundamentals, system administration, troubleshooting, networking, storage management, and shell scripting.
 
-## Topics Covered
+---
+
+## What's Inside
+
+| File               | Topics Covered                                                                  |
+| ------------------ | ------------------------------------------------------------------------------- |
+| user-management.md | User management, groups, passwords, account administration                      |
+| networking.md      | TCP/IP, DNS, network troubleshooting, connectivity testing                      |
+| lvm.md             | Physical Volumes, Volume Groups, Logical Volumes, filesystem expansion          |
+| ssh.md             | SSH access, key authentication, SCP, remote administration                      |
+| shell-scripting.md | Variables, loops, conditions, automation scripts                                |
+| monitoring.md      | CPU, memory, disk monitoring, process management, log analysis                  |
+| troubleshooting.md | Server performance issues, disk space problems, SSH and network troubleshooting |
+
+---
+
+## Purpose
+
+This repository serves as my personal Linux Administration knowledge base and practical learning portfolio.
+
+The content is based on hands-on practice performed in a virtual lab environment using RHEL 9.6 running on VMware Workstation.
+
+---
+
+## Lab Environment
+
+* Operating System: RHEL 9.6
+* Virtualization: VMware Workstation
+* Shell: Bash
+* Package Manager: DNF
+* Repository Management: Local and DNF repositories
+
+---
+
+## Skills Demonstrated
 
 ### Linux Administration
-- User Management
-- Group Management
-- File Permissions
-- Process Management
+
+* User and Group Management
+* File Permissions
+* Process Management
+* Package Management
+* Service Management
 
 ### Networking
-- TCP/IP
-- DNS
-- SSH
-- Connectivity Troubleshooting
 
-### Storage
-- LVM (Logical Volume Manager)
-- Disk Management
-- Filesystems
+* TCP/IP Fundamentals
+* DNS Troubleshooting
+* SSH Administration
+* Connectivity Testing
 
-### Monitoring
-- CPU Monitoring
-- Memory Monitoring
-- Disk Usage Monitoring
-- Log Analysis
+### Storage Management
+
+* LVM Administration
+* Filesystem Management
+* Disk Monitoring
 
 ### Shell Scripting
-- Variables
-- Loops
-- Conditions
-- Automation Scripts
 
-### Troubleshooting
-- Server Performance Issues
-- Disk Space Issues
-- SSH Connectivity Problems
-- Network Troubleshooting
+* Variables
+* Conditional Statements
+* Loops
+* Basic Automation
 
-## Repository Structure
+### Monitoring & Troubleshooting
 
-- user-management.md
-- networking.md
-- lvm.md
-- ssh.md
-- shell-scripting.md
-- troubleshooting.md
-- monitoring.md
+* System Monitoring
+* Resource Utilization Analysis
+* Log Investigation
+* Performance Troubleshooting
 
-## Goal
+---
 
-To document my Linux Administration learning journey and build hands-on skills in Linux System Administration and Infrastructure Support.
-Last Updated: June 2026
+## Related Projects
+
+* Linux Server Health Check Script
+* Linux User Management Script
+
+---
+
+## Topics Planned
+
+* SELinux Administration
+* Firewalld Configuration
+* Cron Jobs
+* Systemd Services
+* Advanced Shell Scripting
+* Ansible Basics
+* Linux Security Hardening
+
+---
+
+## Author
+
+Shiva Chandra Goutham Kalal
+
+Linux Administrator Aspirant | RHEL | Shell Scripting | Networking | Git & GitHub
